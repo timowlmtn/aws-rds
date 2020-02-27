@@ -4,6 +4,7 @@ provider "aws" {
 	profile = "default-owlmtn"
 }
 
+
 resource "aws_db_instance" "default" {
   identifier           = "pg-owlmtn-dev"
   snapshot_identifier  = "pg-owlmtn-1"
